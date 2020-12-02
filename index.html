@@ -1,9 +1,52 @@
 <html>
     <head>
-
+        <link rel='stylesheet' href='./finalcss.css'>
     </head>
-    <body>
-        Testing netlify
-        Testing again
+    <body id= 'mainsec'>
+        <section id="locationSec">
+            <div id="locData" aria-label="The location of the weather">
+
+            </div>
+            <div id="tempResult" aria-label="The current temperature at this location">
+
+            </div>
+
+        </section>
+        <section id="IconSec">
+            <div id="iconResult">
+                <img id="iconImg" src="" aria-hidden="true" /> 
+            </div>
+        </section>
+        <section id="resultSec2">
+             <div id='hiLoResult' aria-label="The high and low temperature for the day">
+                This is the temperature </br>
+             </div>
+             <div id='descResult' aria-label="The description of the current weather conditions">
+                This is the description of the weather </br>
+             </div>
+             <div id='feelsTemp' aria-label="What it current feels like outside at this location">
+                 This is what it feels like outside </br>
+             </div>
+        </section>
+        <section id="searchSec">
+            <form aria-label= 'form for inputing city to search for' id="locInput">
+            <label id='lblcityName' for='cityName'> City:</label></br>
+            <input aria-label="City Input Field" type="text" id="cityName" tabindex="1" /></br></br>
+
+            <label id='lblstateName' for='stateName'> State (if within US):</label></br>
+            <input aria-label='State Input field, only for the U.S.' type="text" id="stateName" tabindex="2"/></br></br>
+
+            <label id='lblCelsius' for='chkCel'> Return Results in Celsius</label>
+            <input aria-label='Checkbox to get results back in Celcius rather than Farenheit' type="checkbox" id="chkCel" tabindex="3"/></br>
+            </form>
+        </section>
+        <section id="submitSec">
+            <input aria-label='Submit button' type='submit' id='btnsubmit' value='Get the Weather' tabindex="4" />
+        </section>
+
     </body>
+    <script src="./fjs.js">
+
+    </script>
+ 
 </html>
