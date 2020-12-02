@@ -6,11 +6,11 @@
 
 //Far variable keeps track of whether to return results in Far or Cel
 
-var apistringCity = 'http://api.openweathermap.org/data/2.5/find?units=imperial&appid=53bea8d77219d7eedf01a36318fb8259&q=';
-var apistringCS ='http://api.openweathermap.org/data/2.5/find?units=imperial&appid=53bea8d77219d7eedf01a36318fb8259&q=';
-var CelapistringCity = 'http://api.openweathermap.org/data/2.5/find?units=metric&appid=53bea8d77219d7eedf01a36318fb8259&q=';
-var CelapistringCS ='http://api.openweathermap.org/data/2.5/find?units=metric&appid=53bea8d77219d7eedf01a36318fb8259&q=';
-var testIcon = 'http://openweathermap.org/img/wn/';
+var apistringCity = 'https://api.openweathermap.org/data/2.5/find?units=imperial&appid=53bea8d77219d7eedf01a36318fb8259&q=';
+var apistringCS ='https://api.openweathermap.org/data/2.5/find?units=imperial&appid=53bea8d77219d7eedf01a36318fb8259&q=';
+var CelapistringCity = 'https://api.openweathermap.org/data/2.5/find?units=metric&appid=53bea8d77219d7eedf01a36318fb8259&q=';
+var CelapistringCS ='https://api.openweathermap.org/data/2.5/find?units=metric&appid=53bea8d77219d7eedf01a36318fb8259&q=';
+var testIcon = 'https://openweathermap.org/img/wn/';
 var Far = true;
 
 //Function that queries the api for the JSON data
